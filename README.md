@@ -13,13 +13,13 @@ A `screenshots` directory provides visual evidence and slide captures, while the
 
 | Lab | Title | Focus |
 |-----|--------|--------|
-| Lab 01 | Client-Side Attacks: Stored XSS, CSRF & BeEF Browser Hooking | Exploiting cross-site scripting, cross-site request forgery, and browser-based control using BeEF. |
-| Lab 02 | Burp Proxy Setup, IIS + Juice Shop Deployment, Directory Traversal & XXE | Setting up Burp Suite for interception, hosting Juice Shop on IIS, and testing directory traversal and XML External Entity injection. |
-| Lab 03 | HTTP Enumeration & Session Hijacking | Capturing and manipulating HTTP headers, hijacking cookies, altering user-agents, and performing brute-force logins with Burp Intruder. |
-| Lab 04 | PHP Includes & MySQL Privileges | Writing basic PHP scripts, performing file inclusions, and managing database permissions securely. |
-| Lab 05 | SQL Injection – Manual and Automated | Demonstrating SQL Injection exploitation using manual payloads and sqlmap against Mutillidae and Juice Shop. |
-| Lab 06 | Session Attacks & Cookie Exfiltration | Capturing credentials via injected HTML, sniffing with Cain & Abel, analyzing session token entropy, and exfiltrating cookies. |
-| Lab 07 | Web Pentest Toolchain – Skipfish, Nikto, HTTrack & DVWA | Performing automated scanning, mirroring web apps, and exploiting command injection in DVWA. |
+| 01 | Client-Side Attacks: Stored XSS, CSRF & BeEF Browser Hooking | Exploiting cross-site scripting, cross-site request forgery, and browser-based control using BeEF. |
+| 02 | Burp Proxy Setup, IIS + Juice Shop Deployment, Directory Traversal & XXE | Setting up Burp Suite for interception, hosting Juice Shop on IIS, and testing directory traversal and XML External Entity injection. |
+| 03 | HTTP Enumeration & Session Hijacking | Capturing and manipulating HTTP headers, hijacking cookies, altering user-agents, and performing brute-force logins with Burp Intruder. |
+| 04 | PHP Includes & MySQL Privileges | Writing basic PHP scripts, performing file inclusions, and managing database permissions securely. |
+| 05 | SQL Injection – Manual and Automated | Demonstrating SQL Injection exploitation using manual payloads and sqlmap against Mutillidae and Juice Shop. |
+| 06 | Session Attacks & Cookie Exfiltration | Capturing credentials via injected HTML, sniffing with Cain & Abel, analyzing session token entropy, and exfiltrating cookies. |
+| 07 | Web Pentest Toolchain – Skipfish, Nikto, HTTrack & DVWA | Performing automated scanning, mirroring web apps, and exploiting command injection in DVWA. |
 
 
 ---
