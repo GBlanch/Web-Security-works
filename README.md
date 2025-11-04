@@ -35,8 +35,13 @@ A `screenshots` directory provides visual evidence and slide captures, while the
 ## Environment Summary
 
 All labs were executed in a virtualized network topology using VMware Workstation 16, isolated lab subnets, and controlled service interactions between attacker and victim hosts.  
-See resources/vm_network_topology.png for the full layout.
 
+
+For this series, a single isolated lab network was created inside VMware: the VM images (Kali, Ubuntu web server, Windows 10, Windows Server/IIS and Metasploitable2) were downloaded and their integrity verified; each machine was added to a dedicated LAN while NAT was retained for internet access; hostnames and static IPs were assigned so that all VMs could reliably reach one another. 
+
+Kali was prepared as the attacker workstation with the usual toolset and a fixed address; the Ubuntu box was configured to host Apache, MySQL and the Mutillidae web application as the primary target; the Windows Server was set up to run IIS (and Juice Shop where required); the Windows client was configured for interactive testing and FTP access, and Metasploitable2 was left provisioned as a deliberately vulnerable target. 
+
+Connectivity was confirmed by ping and hostname resolution, and clean snapshots were saved so the entire environment can be restored consistently for each exercise.
 ---
 
 ## License and Academic Integrity
