@@ -9,7 +9,7 @@ A `screenshots` directory provides visual evidence and slide captures, while the
 
 ---
 
-## Lab Summaries
+## Micro lab Summaries
 
 | Lab | Title | Focus |
 |-----|--------|--------|
